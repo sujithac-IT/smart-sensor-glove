@@ -1,16 +1,104 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="UTF-8">
   <title>Smart Sensor Glove</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Smart Sensor Glove Dashboard</h1>
 
-  <h2 id="gesture">Waiting...</h2>
-  <p id="time"></p>
+  <header class="topbar">
+    <div>
+      <h1>Smart Sensor Glove</h1>
+      <p>Real-Time Gesture-Based Voice Communication</p>
+    </div>
 
-  <p id="sensors"></p>
+    <div class="controls">
+      <span class="status">● Connected</span>
+
+      <select id="language">
+        <option value="english">English</option>
+        <option value="tamil">Tamil</option>
+        <option value="hindi">Hindi</option>
+        <option value="malayalam">Malayalam</option>
+        <option value="telugu">Telugu</option>
+      </select>
+    </div>
+  </header>
+
+  <main class="dashboard">
+
+    <section class="cards">
+
+      <div class="card">
+        <h3>Detected Gesture</h3>
+        <h2 id="gesture">Waiting...</h2>
+      </div>
+
+      <div class="card">
+        <h3>Voice Output</h3>
+        <div id="outputText">No output</div>
+      </div>
+
+      <div class="card">
+        <h3>Timestamp</h3>
+        <div id="timestamp">--</div>
+      </div>
+
+    </section>
+
+    <section class="analytics">
+      <div class="card">
+        <h3>Live Sensor Chart</h3>
+        <canvas id="sensorChart"></canvas>
+      </div>
+
+      <div class="card">
+        <h3>Sensor Values</h3>
+        <div id="sensors">Waiting...</div>
+      </div>
+    </section>
+
+    <section class="tutorial">
+
+      <h2>Sign Language Learning Hub</h2>
+
+      <div class="video-grid">
+
+        <iframe
+          src="https://www.youtube.com/embed/O_Lrs0eh-pQ"
+          title="Indian Sign Language Basics"
+          allowfullscreen>
+        </iframe>
+
+        <iframe
+          src="https://www.youtube.com/embed/0FcwzMq4iWg"
+          title="Alphabet Tutorial"
+          allowfullscreen>
+        </iframe>
+
+      </div>
+
+      <div class="guide-card">
+        <h3>Learning Guide</h3>
+        <ul>
+          <li>Learn hand posture basics</li>
+          <li>Practice alphabet gestures daily</li>
+          <li>Start with greetings and emergency phrases</li>
+          <li>Use gesture repetition for accuracy</li>
+        </ul>
+      </div>
+
+    </section>
+
+  </main>
+
+  <footer>
+    Team Cognexis • SRI SHAKTHI INSTITUTE OF ENGINEERING AND TECHNOLOGY
+  </footer>
 
   <script src="app.js"></script>
+
 </body>
 </html>

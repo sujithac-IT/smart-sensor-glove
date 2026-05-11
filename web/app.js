@@ -110,3 +110,37 @@ languageSelect.addEventListener("change", () => {
     updateOutput(currentGesture);
   }
 });
+const ctx = document.getElementById("sensorChart");
+
+const chart = new Chart(ctx, {
+  type: "line",
+  data: {
+    labels: [],
+    datasets: [
+      { label: "F1", data: [] },
+      { label: "F2", data: [] },
+      { label: "F3", data: [] },
+      { label: "F4", data: [] }
+    ]
+  },
+  options: {
+    responsive: true,
+    animation: false
+  }
+});
+
+function updateChart(values, time) {
+  chart.data.labels.push(time);
+
+  chart.data.datasets[0].data.push(values[0]);
+  chart.data.datasets[1].data.push(values[1]);
+  chart.data.datasets[2].data.push(values[2]);
+  chart.data.datasets[3].data.push(values[3]);
+
+  if (chart.data.labels.length > 12) {
+    chart.data.labels.shift();
+    chart.data.datasets.forEach(d => d.data.shift());
+  }
+
+  chart.update();
+}

@@ -1,0 +1,105 @@
+{
+  "Good morning": {
+    "english": "Good morning",
+    "tamil": "காலை வணக்கம்",
+    "hindi": "सुप्रभात",
+    "malayalam": "സുപ്രഭാതം",
+    "telugu": "శుభోదయం"
+  },
+
+  "Our project is Smart Sensor Glove": {
+    "english": "Our project is Smart Sensor Glove",
+    "tamil": "எங்கள் திட்டம் ஸ்மார்ட் சென்சார் க்ளவ்",
+    "hindi": "हमारा प्रोजेक्ट स्मार्ट सेंसर ग्लव है",
+    "malayalam": "ഞങ്ങളുടെ പദ്ധതി സ്മാർട്ട് സെൻസർ ഗ്ലൗവ് ആണ്",
+    "telugu": "మా ప్రాజెక్ట్ స్మార్ట్ సెన్సర్ గ్లోవ్"
+  },
+
+  "It supports speech impaired individuals": {
+    "english": "It supports speech impaired individuals",
+    "tamil": "இது பேச்சு குறைபாடு கொண்டவர்களுக்கு உதவுகிறது",
+    "hindi": "यह वाक् बाधित व्यक्तियों की सहायता करता है",
+    "malayalam": "ഇത് സംസാര വൈകല്യമുള്ളവരെ സഹായിക്കുന്നു",
+    "telugu": "ఇది మాట్లాడలేని వారికి సహాయం చేస్తుంది"
+  },
+
+  "We are Team Cognexis": {
+    "english": "We are Team Cognexis",
+    "tamil": "நாங்கள் டீம் காக்நெக்சிஸ்",
+    "hindi": "हम टीम कॉग्नेक्सिस हैं",
+    "malayalam": "ഞങ്ങൾ ടീം കോഗ്നെക്സിസ് ആണ്",
+    "telugu": "మేము టీమ్ కాగ్నెక్సిస్"
+  },
+
+  "C": {
+    "english": "C",
+    "tamil": "சி",
+    "hindi": "सी",
+    "malayalam": "സി",
+    "telugu": "సి"
+  },
+
+  "O": {
+    "english": "O",
+    "tamil": "ஓ",
+    "hindi": "ओ",
+    "malayalam": "ഒ",
+    "telugu": "ఓ"
+  },
+
+  "G": {
+    "english": "G",
+    "tamil": "ஜி",
+    "hindi": "जी",
+    "malayalam": "ജി",
+    "telugu": "జి"
+  },
+
+  "N": {
+    "english": "N",
+    "tamil": "என்",
+    "hindi": "एन",
+    "malayalam": "എൻ",
+    "telugu": "ఎన్"
+  },
+
+  "E": {
+    "english": "E",
+    "tamil": "ஈ",
+    "hindi": "ई",
+    "malayalam": "ഈ",
+    "telugu": "ఈ"
+  },
+
+  "X": {
+    "english": "X",
+    "tamil": "எக்ஸ்",
+    "hindi": "एक्स",
+    "malayalam": "എക്സ്",
+    "telugu": "ఎక్స్"
+  },
+
+  "I": {
+    "english": "I",
+    "tamil": "ஐ",
+    "hindi": "आई",
+    "malayalam": "ഐ",
+    "telugu": "ఐ"
+  },
+
+  "S": {
+    "english": "S",
+    "tamil": "எஸ்",
+    "hindi": "एस",
+    "malayalam": "എസ്",
+    "telugu": "ఎస్"
+  },
+
+  "Cognexis": {
+    "english": "Cognexis",
+    "tamil": "காக்நெக்சிஸ்",
+    "hindi": "कॉग्नेक्सिस",
+    "malayalam": "കോഗ്നെക്സിസ്",
+    "telugu": "కాగ్నెక్సిస్"
+  }
+}

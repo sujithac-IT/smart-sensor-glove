@@ -1,0 +1,28 @@
+int f1 = 34;
+int f2 = 35;
+int f3 = 32;
+int f4 = 33;
+
+void setup() {
+  Serial.begin(9600);
+}
+
+void loop() {
+  int v1 = analogRead(f1);
+  int v2 = analogRead(f2);
+  int v3 = analogRead(f3);
+  int v4 = analogRead(f4);
+
+  Serial.print(v1);
+  Serial.print(",");
+
+  Serial.print(v2);
+  Serial.print(",");
+
+  Serial.print(v3);
+  Serial.print(",");
+
+  Serial.println(v4);
+
+  delay(150);
+}

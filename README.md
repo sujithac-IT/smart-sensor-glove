@@ -1,6 +1,6 @@
 # Smart Sensor Glove for Real-Time Gesture-Based Voice Communication Using ESP32
 
-A wearable assistive communication system that detects hand gestures using flex sensors and converts them directly into real-time voice output. The project is designed to support speech-impaired individuals through a low-cost, portable, and practical solution.
+A wearable assistive communication system that uses multilanguages to detects hand gestures using flex sensors and converts them directly into real-time voice output. The project is designed to support speech-impaired individuals through a low-cost, portable, and practical solution.
 
 # Smart Sensor Glove for Real-Time Gesture-Based Voice Communication Using ESP32
 
@@ -30,14 +30,30 @@ The glove uses flex sensors to detect finger movements. ESP32 reads the sensor v
 - PySerial
 - pyttsx3
 
+production-ready folder structure:
+smart-sensor-glove/
+├── esp32/
+│ └── smart_glove.ino
+├── backend/
+│ └── server.py
+├── web/
+│ ├── index.html
+│ ├── app.js
+│ ├── style.css
+│ └── tutorial/
+├── images/
+├── docs/
+├── README.md
+└── requirements.txt
+
 ## Gesture Mapping
 
 | Gesture | Output |
-|---|---|
-| Open hand | Hello |
-| Closed fist | I need help |
-| Thumb bent | Yes |
-| Index bent | No |
+Open hand → Good morning
+Thumb bent → Our project is Smart Sensor Glove
+Index bent → It supports speech-impaired individuals
+Thumb + Index + Ring bent → We are Team Cognexis
+Closed fist → Cognexis
 
 ## Working Flow
 
